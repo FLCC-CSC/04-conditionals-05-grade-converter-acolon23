@@ -1,8 +1,8 @@
 # FILE NAME - grade_converter.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Anthony Colon
+# DATE: March 8th, 2026
+# BRIEF DESCRIPTION:  Grade Converter
 
 
 
@@ -15,22 +15,22 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-print('===== Grade Converter =====')
+print("===== Grade Converter =====")
 
-percent = int(input('Enter a numerical grade (1-100): '))
+grade = float(input("Enter a numerical grade (1-100): "))
 
-if percent > 100:
-    print('A+')
-elif percent >= 90:
-    print('A')
-elif percent >= 80:
-    print('B')
-elif percent >= 70:
-    print('C')
-elif percent >= 65:
-    print('D')
+if grade < 65:
+    print("F")
+elif grade < 70:
+    print("D")
+elif grade < 80:
+    print("C")
+elif grade < 90:
+    print("B")
+elif grade <= 100:
+    print("A")
 else:
-    print('F')
+    print("A+")
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -85,7 +85,9 @@ D
 1. What is something you would tell a future student to be careful about when
    doing this lab?
 
-
+Something I would tell them is to make sure your output matches the sample output exactly. 
+I have failed so many submissions due to tiny errors, for example one extra space, can 
+take you on a wild ride. 
 
 
 
